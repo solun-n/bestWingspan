@@ -374,6 +374,7 @@ a {
 
     .about_text {
         font-size: 22px;
+
     }
 
     .about_item i {
@@ -390,6 +391,7 @@ a {
 
     .new_desc {
         font-size: 18px;
+        width: 300px;
     }
 }
 
@@ -408,11 +410,12 @@ a {
     }
 
     .about_title {
+        font-size: 55px;
         margin-top: 70px;
     }
 
     .advantages__item-info {
-        display: flex;
+        display: block;
     }
 
     .advantages__item-number {
@@ -421,6 +424,8 @@ a {
 
     .advantages__item-text {
         font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .right {
