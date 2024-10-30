@@ -377,6 +377,10 @@ a {
 
     }
 
+    .advantages__item-info {
+        display: block;
+    }
+
     .about_item i {
         font-size: 60px;
     }
@@ -414,9 +418,7 @@ a {
         margin-top: 70px;
     }
 
-    .advantages__item-info {
-        display: block;
-    }
+    
 
     .advantages__item-number {
         display: none;
