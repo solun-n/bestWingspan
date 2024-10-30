@@ -1,3 +1,5 @@
+// Slider
+
 let swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -10,3 +12,9 @@ let swiper = new Swiper(".mySwiper", {
       nextEl: ".new__btn-next"
     }
   });
+
+  // Burger-menu
+
+  document.getElementById("burger").addEventListener('click', function(){
+    document.querySelector(".nav").classList.toggle("open")
+  })
